@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  position: relative;
+  height: 70px;
+  display: flex;
+  margin-top: 100px;
+ 
+}
+
+.searchTerm {
+  width: 600px;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  height: 60px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 30;
+  float: left;
+  padding: 10px
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #00B4CC;
+  background: rgb(6, 7, 7);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  float: left;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top: 15%;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+.hcol{
+  font-size: 22;
+  text-align: center; 
+}
+.n1{
+  width: 25%;
+  float: left;
+  font-size: 16;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.n2{
+  width: 25%;
+  float: left;
+  font-size: 16;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+textarea{
+  resize: none;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 17;
+  float: left;
+  height: 30px;
+  width: 20%;
+  overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

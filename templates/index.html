@@ -1,0 +1,73 @@
+<html>
+<title>
+    Data science project 
+</title>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrap">
+        <div class="search">
+            <form action="/signup" method="post">
+           <input type="text" name="email" class="searchTerm" placeholder="Paste your link of product here">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+            </form>
+        </div>
+     </div>
+
+
+     
+<div class="row">
+    <div class="column" style="background-color:rgb(221, 92, 92);">
+      <div class="hcol"><h2>Need to imporve a lot</h2>
+      <h3>Rating less than 3 </h3>
+    </div>
+
+    <div class="num">
+      <h4 class="n2">No. of 1 star</h4>
+      <textarea id="n11" rows="2" cols="9"></textarea>
+      <h4 class="n2">No. of 2 star</h4>
+      <textarea id="n11" rows="2" cols="9"></textarea>
+    </div> 
+
+
+    
+   </div>
+
+    <div class="column" style="background-color:rgb(223, 235, 121);">
+      <div class="hcol"><h2>Need small changes</h2>
+      <h3>Rating less than 4</h3>
+      </div>
+
+      <div class="num">
+        <h4 class="n2">No. of 3 star</h4>
+        <textarea id="n11" rows="2" cols="9"></textarea>
+      </div> 
+
+    </div>
+
+
+    <div class="column" style="background-color:rgb(101, 212, 97);">
+     <div class="hcol"> <h2>Keep it up</h2>
+      <h3>Rating from 4 to 5</h3>
+    </div>
+
+    <div class="num">  
+      <h4 class="n1">No. of 4 star</h4>
+      <textarea id="n11" rows="2" cols="9"></textarea>
+      <h4 class="n1">No. of 5 star</h4>
+      <textarea id="n11" rows="2" cols="9"></textarea>
+    </div> 
+
+    </div>
+
+
+  </div>
+</body>
+</html>
